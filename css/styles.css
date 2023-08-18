@@ -212,25 +212,3 @@ hr {
     }
 }
 
-@media (max-width: 600px) {
-    body {
-        font-size: 70%;
-    }
-    header img {
-        max-width: 50%;
-    }
-    .link-button {
-        width: 75px;
-    }
-    #info { 
-        flex-direction: column;
-    }  
-    .inputForm textarea, .inputForm input[type="text"],
-    .inputForm input[type="email"] {
-        font-size: 95%;
-        height: 25px;
-    }
-    .inputForm input[type="submit"] {
-        height: 30px;
-    }
-}

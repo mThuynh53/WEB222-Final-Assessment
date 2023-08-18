@@ -37,4 +37,13 @@ other.forEach(function(radio) {
     }, 750);
   });
 });
+
+//add current date
+const currentDate = new Date();
+
+const day = currentDate.getDate();
+const month = currentDate.getMonth() + 1;
+const year = currentDate.getFullYear();
+const date = document.getElementById("currentDate");
+date.textContent = `${day}/${month}/${year}`;
 });
